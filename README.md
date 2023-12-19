@@ -1,7 +1,11 @@
-# Example Project
+# Platform
 
-This is an example project.
+Detector of platforms and architectures.
 
-You can change the options in gradle.properties and build.gradle.kts.
+## Artifact ID
 
-You can use this template by clicking "Use this template" or download ZIP.
+```groovy
+dependencies {
+    implementation("io.github.over-run:platform:1.+")
+}
+```
